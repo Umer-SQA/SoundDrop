@@ -20,7 +20,7 @@ describe(' Login Cases ', function () {
         sales.goToSalesOder()
         sales.createNewOder()
     })
-    it.only('TC_SOP_002  Check "Create New Order" is clickable  and working fine', () => {
+    it('TC_SOP_002  Check "Create New Order" is clickable  and working fine', () => {
         login.goToLogin(email,password)
         login.clickOnLoginButton()
         login.validateHomePage()
